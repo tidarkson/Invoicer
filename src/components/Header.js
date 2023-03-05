@@ -4,7 +4,7 @@ export default function Header() {
 
   return (
     <div>
-        <header className="flex flex-col items-center justify-center mb-5 xl:flex-row xl:justify-between">
+        <header className="flex flex-col items-center justify-left mb-5 xl:flex-row xl:justify-left">
           <div>
             <img className='w-20' src="./image/header.png" alt="" />
           </div>
