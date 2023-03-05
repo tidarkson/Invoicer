@@ -5,9 +5,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: gainsboro;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.footer li {
+  margin: 0.5rem 0.2rem;
+}
+
+label {
+  margin-bottom: 0.2rem
+}
+
+input,
+textarea {
+  background-color: gainsboro;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.2rem;
+  margin-bottom: 0.8rem;
 }
