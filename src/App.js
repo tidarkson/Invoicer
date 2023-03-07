@@ -11,7 +11,7 @@ import ReactToPrint from 'react-to-print'
 
 
 function App() {
-  const [showInvoice, setShowInvoice] = useState(false)
+  const [showInvoice, setShowInvoice] = useState(true)
   const [name, setName] = useState("")
   const [address, setAddress] = useState("")
   const [email, setEmail] = useState("")
